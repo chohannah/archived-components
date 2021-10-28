@@ -87,5 +87,61 @@
         <a href="#"> log in </a>
       </button>
     </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // jQuery
+
+      $('.hero-button').on('click', function () {
+        $('.modal-with-backdrop').fadeIn().css('display', 'flex')
+      })
+
+      $('.header-close').click(function () {
+        $('.modal-with-backdrop').fadeOut()
+      })
+
+      $('.nav-menu').click(function () {
+        $('.menu-content').slideToggle()
+      })
+
+      $('.modal-content-form').on('submit', function (e) {
+        if ($('.form-input-email').val() == '') {
+          e, preventDefault(), $('.form-input-email-warning').show()
+        }
+
+        if ($('.form-input-password').val() == '') {
+          e, preventDefault(), $('.form-input-password-warning').show()
+        }
+      })
+
+      //pure JS
+
+      // document
+      //   .getElementsByClassName('hero-button')[0]
+      //   .addEventListener('click', function () {
+      //     document.getElementsByClassName(
+      //       'modal-with-backdrop'
+      //     )[0].style.display = 'flex'
+      //   })
+
+      // document
+      //   .getElementsByClassName('header-close')[0]
+      //   .addEventListener('click', function () {
+      //     document.getElementsByClassName(
+      //       'modal-with-backdrop'
+      //     )[0].style.display = 'none'
+      //   })
+
+      // document
+      //   .getElementsByClassName('nav-menu')[0]
+      //   .addEventListener('click', function () {
+      //     document.getElementsByClassName('menu-content')[0].style.display =
+      //       'flex'
+      //   })
+    </script>
   </body>
 </html>
