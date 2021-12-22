@@ -33,6 +33,11 @@
 
 ### 01. Banner card
 
+<br />
+<p>
+<a href="https://yejinc.github.io/archived-components/01-banner-card/01-banner-card">👉  Demo link</a>
+</p>
+
 <img src="./01-banner-card/01-banner-card.png"/>
 
 <br />
