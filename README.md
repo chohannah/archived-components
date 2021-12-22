@@ -31,79 +31,15 @@
 
 <br />
 
-### 01. Banner card
-
-<br />
-<p>
-<a href="https://yejinc.github.io/archived-components/01-banner-card/">👉  Demo link</a>
-</p>
-
-<img src="./01-banner-card/01-banner-card.png"/>
-
-<br />
-<br />
-
-### 02. Search result
-
-<img src="./02-search-result/02-search-result.png"/>
-
-<br />
-<br />
-
-### 03. Feature box
-
-<img src="./03-feature-box/03-feature-box.png"/>
-
-<br />
-<br />
-
-### 04. Simple navbar
-
-<img src="./04-simple-navbar/04-simple-navbar.png"/>
-
-<br />
-<br />
-
-### 05. Breadcrumb pagination
-
-<img src="./05-breadcrumb-pagination/05-breadcrumb-pagination.png"/>
-<br />
-<br />
-
-### 🚧 06. Login modal
-
-<br />
-<br />
-
-<img src="./06-login-modal/06-login-modal.png"/>
-
-<br />
-<br />
-
-### 07. Responsive hero with banner
-
-<img src="./07-responsive-hero-with-banner/07-responsive-hero-with-banner.png"/>
-
-<br />
-<br />
-
-### 08. Instagram user profile
-
-<img src="./08-instagram-user-profile/08-instagram-user-profile.png"/>
-
-<br />
-<br />
-
-### 09. Receipt
-
-<img src="./09-receipt/09-receipt.png"/>
-
-<br />
-<br />
-
-### 10. Input
-
-<img src="./10-input/10-input.png"/>
-
-<br />
-<br />
+| NAME                                 | THUMBNAIL                                                                                                            | STACKS                                                                                                                                                                                                                                                                                                                          | LINKS                                                                                                                                                                                                       |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01. Banner card                      | <img src="./01-banner-card/01-banner-card.png" style='width: 290px; height: auto;'/>                                 | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                      | <a href="https://yejinc.github.io/archived-components/01-banner-card/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/01-banner-card'>Repo</a>                                 |
+| 02. Search result                    | <img src="./02-search-result/02-search-result.png" style='width: 290px; height: auto;'/>                             | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/><br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                       | <a href="https://yejinc.github.io/archived-components/02-search-result/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/02-search-result/02-search-result'>Repo</a>            |
+| 03. Feature box                      | <img src="./03-feature-box/03-feature-box.png" style='width: 290px; height: auto;'/>                                 | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                       | <a href="https://yejinc.github.io/archived-components/03-feature-box/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/03-feature-box'>Repo</a>                                 |
+| 04. Simple navbar                    | <img src="./04-simple-navbar/04-simple-navbar.png" style='width: 290px; height: auto;'/>                             | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                       | <a href="https://yejinc.github.io/archived-components/04-simple-navbar/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/04-simple-navbar'>Repo</a>                             |
+| 05. Breadcrumb pagination            | <img src="./05-breadcrumb-pagination/05-breadcrumb-pagination.png" style='width: 290px; height: auto;'/>             | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                       | <a href="https://yejinc.github.io/archived-components/05-breadcrumb-pagination/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/05-breadcrumb-pagination'>Repo</a>             |
+| 🚧 06. Login modal                   | <img src="./06-login-modal/06-login-modal.png" style='width: 290px; height: auto;'/>                                 | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white"/> | <a href="https://yejinc.github.io/archived-components/06-login-modal/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/06-login-modal'>Repo</a>                                 |
+| 07. Responsive hero <br/>with banner | <img src="./07-responsive-hero-with-banner/07-responsive-hero-with-banner.png" style='width: 290px; height: auto;'/> | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                      | <a href="https://yejinc.github.io/archived-components/07-responsive-hero-with-banner/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/07-responsive-hero-with-banner'>Repo</a> |
+| 08. Instagram user profile           | <img src="./08-instagram-user-profile/08-instagram-user-profile.png" style='width: 290px; height: auto;'/>           | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                      | <a href="https://yejinc.github.io/archived-components/08-instagram-user-profile/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/08-instagram-user-profile'>Repo</a>           |
+| 09. Receipt                          | <img src="./09-receipt/09-receipt.png" style='width: 290px; height: auto;'/>                                         | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                      | <a href="https://yejinc.github.io/archived-components/09-receipt/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/09-receipt'>Repo</a>                                         |
+| 10. Input                            | <img src="./10-input/10-input.png" style='width: 290px; height: auto;'/>                                             | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <br /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>                                                                                                                      | <a href="https://yejinc.github.io/archived-components/10-input/">Demo</a> / <a href='https://github.com/yejinc/archived-components/tree/main/10-input'>Repo</a>                                             |
