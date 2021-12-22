@@ -35,7 +35,7 @@
 
 <br />
 <p>
-<a href="https://yejinc.github.io/archived-components/01-banner-card/01-banner-card">👉  Demo link</a>
+<a href="https://yejinc.github.io/archived-components/01-banner-card/">👉  Demo link</a>
 </p>
 
 <img src="./01-banner-card/01-banner-card.png"/>
@@ -73,9 +73,8 @@
 ### 🚧 06. Login modal
 
 <br />
-<p>
-<a href="https://yejinc.github.io/archived-components/">👉  Demo link</a>
-</p>
+<br />
+
 <img src="./06-login-modal/06-login-modal.png"/>
 
 <br />
