@@ -73,9 +73,8 @@
 ### 🚧 06. Login modal
 
 <br />
-<p>
-<a href="https://yejinc.github.io/archived-components/">👉  Demo link</a>
-</p>
+<br />
+
 <img src="./06-login-modal/06-login-modal.png"/>
 
 <br />
