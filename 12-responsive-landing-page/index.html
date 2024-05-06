@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Responsive Landing Page | HTML, CSS, GSAP</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="loader">
+        <ul class="images-list">
+          <li class="images-list-item"><img src="./assets/9.jpg" alt="" /></li>
+          <li class="images-list-item"><img src="./assets/2.jpg" alt="" /></li>
+          <li class="images-list-item"><img src="./assets/3.jpg" alt="" /></li>
+          <li class="images-list-item" id="loader-logo">
+            <img src="./assets/logo-img.svg" alt="" />
+          </li>
+          <li class="images-list-item"><img src="./assets/8.jpg" alt="" /></li>
+          <li class="images-list-item"><img src="./assets/1.jpg" alt="" /></li>
+          <li class="images-list-item"><img src="./assets/10.jpg" alt="" /></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <header class="gnb">
+          <nav class="gnb-nav">
+            <h2 class="visually-hidden">global navigation bar</h2>
+
+            <ul class="gnb-nav-list">
+              <li class="gnb-nav-list-item"><a href="#">( menu )</a></li>
+              <li class="gnb-nav-list-item" id="logo">
+                <a href="#"><img src="./assets/logo-letter.svg" alt="" /></a>
+              </li>
+              <li class="gnb-nav-list-item"><a href="#">( work * )</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+          <div class="hero">
+            <h2 class="hero-text-top">we believe</h2>
+            <h2 class="hero-text-top">greens shape the</h2>
+            <h2 class="hero-text-bottom">future</h2>
+          </div>
+
+          <div class="selected-campaigns">
+            <ul class="selected-campaigns-list">
+              <li class="selected-campaigns-list-item">
+                <a href="#"><img src="./assets/4.jpg" alt="" /></a>
+              </li>
+              <li class="selected-campaigns-list-item">
+                <a href="#"><img src="./assets/8.jpg" alt="" /></a>
+              </li>
+              <li class="selected-campaigns-list-item">
+                <a href="#"><img src="./assets/6.jpg" alt="" /></a>
+              </li>
+              <li class="selected-campaigns-list-item">
+                <a href="#"><img src="./assets/7.jpg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
