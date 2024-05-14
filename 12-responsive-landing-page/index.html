@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/main.css" />
@@ -31,46 +31,66 @@
         </ul>
       </div>
 
-      <div class="content">
-        <header class="gnb">
-          <nav class="gnb-nav">
-            <h2 class="visually-hidden">global navigation bar</h2>
+      <header class="gnb">
+        <nav class="gnb-nav">
+          <!-- <h2 class="visually-hidden">global navigation bar</h2> -->
 
-            <ul class="gnb-nav-list">
-              <li class="gnb-nav-list-item"><a href="#">( menu )</a></li>
-              <li class="gnb-nav-list-item" id="logo">
-                <a href="#"><img src="./assets/logo-letter.svg" alt="" /></a>
-              </li>
-              <li class="gnb-nav-list-item"><a href="#">( work * )</a></li>
-            </ul>
-          </nav>
-        </header>
+          <ul class="gnb-nav-list">
+            <li class="gnb-nav-list-item"><a href="#">( menu )</a></li>
+            <li class="gnb-nav-list-item" id="logo">
+              <a href="#"><img src="./assets/logo-letter.svg" alt="" /></a>
+            </li>
+            <li class="gnb-nav-list-item"><a href="#">( work * )</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <main>
-          <div class="hero">
-            <h2 class="hero-text-top">we believe</h2>
-            <h2 class="hero-text-top">greens shape the</h2>
-            <h2 class="hero-text-bottom">future</h2>
+      <main class="content">
+        <div class="hero">
+          <h2 class="hero-text-top">we believe</h2>
+          <h2 class="hero-text-top">greens shape the</h2>
+          <h2 class="hero-text-bottom">future</h2>
+        </div>
+
+        <div class="selected-campaigns">
+          <div class="selected-campaigns-header">
+            <h3 class="selected-campaigns-header-left">
+              ( Selected Campaigns)
+            </h3>
+            <h3
+              class="selected-campaigns-header-right"
+              aria-label="from project number one to four"
+            >
+              <span aria-hidden>( 01</span>
+              <span aria-hidden> - </span>
+              <span aria-hidden>04 )</span>
+            </h3>
           </div>
 
-          <div class="selected-campaigns">
-            <ul class="selected-campaigns-list">
-              <li class="selected-campaigns-list-item">
-                <a href="#"><img src="./assets/4.jpg" alt="" /></a>
-              </li>
-              <li class="selected-campaigns-list-item">
-                <a href="#"><img src="./assets/8.jpg" alt="" /></a>
-              </li>
-              <li class="selected-campaigns-list-item">
-                <a href="#"><img src="./assets/6.jpg" alt="" /></a>
-              </li>
-              <li class="selected-campaigns-list-item">
-                <a href="#"><img src="./assets/7.jpg" alt="" /></a>
-              </li>
-            </ul>
-          </div>
-        </main>
-      </div>
+          <ul class="selected-campaigns-list">
+            <li class="selected-campaigns-list-item">
+              <a href="#"
+                ><img src="./assets/4.jpg" alt="link to project 1"
+              /></a>
+            </li>
+            <li class="selected-campaigns-list-item">
+              <a href="#"
+                ><img src="./assets/8.jpg" alt="link to project 2"
+              /></a>
+            </li>
+            <li class="selected-campaigns-list-item">
+              <a href="#"
+                ><img src="./assets/6.jpg" alt="link to project 3"
+              /></a>
+            </li>
+            <li class="selected-campaigns-list-item">
+              <a href="#"
+                ><img src="./assets/7.jpg" alt="link to project 4"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </main>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
