@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Migra';
+  src: local('Migra-Extralight'), local('MigraExtralight'), local('Migra'),
+    url('/fonts/Migra/Migra-Extralight.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+$font-family-main: 'Migra', serif;
+$font-family-sub: 'Black Han Sans', sans-serif;
+$font-family-body: 'Inter', sans-serif;
+
+$font-size-body: 14px;
+$font-size-title: 10vw;
+
+$font-line-height-80: 0.8;
+$font-line-height-120: 1.2;
