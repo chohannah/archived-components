@@ -1,0 +1,39 @@
+@mixin text-style-hero-top {
+  font-family: $font-family-main;
+  font-size: $font-size-title;
+  font-weight: 200;
+  line-height: $font-line-height-80;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+@mixin text-style-hero-bottom {
+  font-family: $font-family-sub;
+  font-size: $font-size-title;
+  line-height: $font-line-height-80;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+@mixin text-style-body {
+  font-family: $font-family-body;
+  font-size: $font-size-body;
+  line-height: $font-line-height-120;
+  letter-spacing: normal;
+}
+
+@mixin text-style($type, $color: false) {
+  @if ($type == 'hero-top') {
+    @include text-style-hero-top;
+  }
+  @if ($type == 'hero-bottom') {
+    @include text-style-hero-bottom;
+  }
+  @if ($type == 'body') {
+    @include text-style-body;
+  }
+
+  @if (type-of($color) == color) {
+    color: color;
+  }
+}

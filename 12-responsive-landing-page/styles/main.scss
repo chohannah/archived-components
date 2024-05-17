@@ -1,6 +1,14 @@
+@import 'base/typography';
+@import 'base/color';
 @import 'base/normalize';
 @import 'base/reset';
-@import 'base/typographty';
-@import 'base/color';
 
+@import 'mixins/text-styles';
+
+@import 'layouts/grid';
 @import 'layouts/loader';
+@import 'layouts/gnb';
+@import 'layouts/content';
+
+@import 'components/hero';
+@import 'components/selected-campaigns-list';
